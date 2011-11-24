@@ -1,0 +1,7 @@
+*.[568]
+[568].out
+_obj
+_test*
+noeq
+*.gz
+*.swp
