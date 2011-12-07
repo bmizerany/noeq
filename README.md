@@ -8,11 +8,11 @@ Or clone this repo and build with Go weekly/weekly.2011-11-18 or later.
 
 ## Use
 
-	$ goflake -h
-	Usage of goflake:
-	  -a="127.0.0.1:4444": the goflake address
+	$ noeq -h
+	Usage of noeq:
+	  -a="127.0.0.1:4444": the noeq address
 	  -c=1: the number of ids to generate
-	$ goflake
+	$ noeq
 	140193482529570816
 
 ## See Also
