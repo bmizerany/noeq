@@ -10,5 +10,8 @@ GOFILES=\
 
 include $(GOROOT)/src/Make.cmd
 
-tar: clean $(TARG)
+goinstall:
+	goinstall .
+
+tar: clean goinstall
 	tar -czf $(TARG)-$(VERSION)-$(GOOS)-$(GOARCH).tar.gz $(TARG) README.md
