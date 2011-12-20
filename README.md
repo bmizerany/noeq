@@ -15,6 +15,10 @@ Or clone this repo and build with Go weekly/weekly.2011-11-18 or later.
 	$ noeq
 	140193482529570816
 
+## ENVIRONMENT
+
+If the server requires authentication, you'll need to set the `NOEQ_TOKEN` environment variable to match the servers when running this tool.
+
 ## See Also
 
 <http://github.com/bmizerany/noeqd>

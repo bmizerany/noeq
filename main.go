@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"github.com/bmizerany/noeq.go"
 	"log"
+	"os"
 )
 
 // Flags
@@ -16,7 +17,7 @@ var (
 func main() {
 	flag.Parse()
 
-	ne, err := noeq.New(*addr)
+	ne, err := noeq.New(os.Getenv("NOEQ_TOKEN"), *addr)
 	if err != nil {
 		log.Fatal(err)
 	}
